@@ -11,23 +11,25 @@
 
     <script defer src="index.js"></script>
 
-    <script defer src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
 </head>
 
 <body>
-    <div class="container">
-        
-        <header class="navigation">
-            <nav>
+    <div class="container text-white text-center">   
+        <header class="navbar w-screen flex justify-center">
+            <nav class="flex p-10 max-w-screen-lg">
                 <p>KATE BOYD</p>
-                <a href="#">PROJECT 1</a>
-                <a href="#">PROJECT 2</a>
-                <a href="#">PROJECT 3</a>
-                <a href="#">PROJECT 4</a>
+                <a href="#">PROJECTS</a>
+                <a href="#">CONTACT</a>
             </nav>
         </header>
 
-        <section class="profile">
+        <section class="profile w-screen flex h-80 mt-20 mb-20">
             <img src="portfoliopic.jpg" alt="Beach Profile Photo">
             <div class="aboutme">
                 <h3>ABOUT ME</h3>
@@ -36,7 +38,7 @@
         </section>
 
         <footer>
-            <p class="contact">CONTACT ME ON: <a href="+447943593173">07943 593 173</a></p>
+            <p class="contact p-10 w-screen">CONTACT ME ON: <a href="+447943593173">07943 593 173</a></p>
         </footer>
     </div>
 </body>
