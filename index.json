@@ -1,18 +1,25 @@
 {
-    "project-data" :[
+    "projectdata" :[
 		{
-        "project_name": "Project 1",
-        "project_description": "This is the description for Project 1",
-        "github_repo": "link-to-github-repo1-here",
+        "name": "Project 1",
+        "description": "This is the description for Project 1",
+        "repo": "link-to-github-repo1-here",
+        "page": "link-to-url1-here",
+        "image": "placeholderimage.jpg"
     },
     {
-        "project_name": "Project 2",
-        "project_description": "This is the description for Project 2",
-        "github_repo": "link-to-github-repo2-here",
+        "name": "Project 2",
+        "description": "This is the description for Project 2",
+        "repo": "link-to-github-repo2-here",
+        "page": "link-to-url2-here",
+        "image": "placeholderimage.jpg"
     },
     {
-        "project_name": "Project 3",
-        "project_description": "This is the description for Project 3",
-        "github_repo": "link-to-github-repo3-here",
+        "name": "Project 3",
+        "description": "This is the description for Project 3",
+        "repo": "link-to-github-repo3-here",
+        "page": "link-to-url3-here",
+        "image": "placeholderimage.jpg"
     }]
 	}
+
