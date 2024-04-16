@@ -2,7 +2,7 @@ body {
   font-family: "Poppins";
 }
 
-header {
+.home-head {
   background-color: #035c5F;
 }
 
@@ -17,3 +17,12 @@ body {
 .contact {
   background-color: #F19D54;
 }
+
+.project-head {
+  background-color: #DA733D;
+}
+
+.proj-desc {
+  background-color: #035c5F;
+}
+
