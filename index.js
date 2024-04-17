@@ -22,7 +22,7 @@ fetch("index.json")
     data.projectdata.forEach((project, id) => {
         document.querySelector(".project-container").classList.remove("hidden")
         document.querySelector(".project-container").innerHTML += `
-        <div class="project-container flex flex-col md:flex-row items-center justify-center gap-10 my-20 mx-auto">
+        <div class="project-container flex flex-col md:flex-row items-center justify-center my-20 gap-10 mx-20">
         <div class="w-1/2">
             <img class="" src="${project.image}" alt="json project image">
         </div>
@@ -34,7 +34,7 @@ fetch("index.json")
             <div class="content-center pl-20 pr-20 text-wrap hidden">
                 <p>${project.description}</p><br>
                 <p>Check out the live page <a href="${project.page}" target="_blank"><strong class="text-xl">here</strong></a></p><br>
-                <p>Check out the GitHub repo <a href="${project.repo}" target="_blank"><strong class="text-xl">here</strong></a></p><br>
+                <p>GitHub repo <a href="${project.repo}" target="_blank"><strong class="text-xl">here <i class="fa-brands fa-github"></i></strong></a></p><br>
             </div>
         </div>
         </div>

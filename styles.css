@@ -1,13 +1,12 @@
 body {
   font-family: "Poppins";
+  /* background-image: url('beach.jpg'); */
+  /* opacity: .4;  */
+  background-color: #E5BE1F;
 }
 
 .home-head {
   background-color: #035c5F;
-}
-
-body {
-  background-color: #E5BE1F;
 }
 
 .aboutme {
@@ -25,4 +24,3 @@ body {
 .proj-desc {
   background-color: #035c5F;
 }
-
