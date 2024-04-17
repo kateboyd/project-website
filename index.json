@@ -4,8 +4,8 @@
         "id": 1, 
         "name": "Project 1",
         "description": "This is the description for Project 1",
-        "repo": "link-to-github-repo1-here",
-        "page": "link-to-url1-here",
+        "repo": "https://github.com/kateboyd",
+        "page": "https://www.linkedin.com/in/kate-wileman/",
         "image": "placeholderimage.jpg"
     },
     {

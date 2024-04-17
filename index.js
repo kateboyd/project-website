@@ -33,8 +33,8 @@ fetch("index.json")
 
             <div class="content-center pl-20 pr-20 text-wrap hidden">
                 <p>${project.description}</p><br>
-                <a href="#">${project.page}</a><br>
-                <a href="#">${project.repo}</a><br>
+                <p>Check out the live page <a href="${project.page}" target="_blank"><strong class="text-xl">here</strong></a></p><br>
+                <p>Check out the GitHub repo <a href="${project.repo}" target="_blank"><strong class="text-xl">here</strong></a></p><br>
             </div>
         </div>
         </div>
@@ -51,17 +51,3 @@ fetch("index.json")
     })
 
 })
-
-
-// document.querySelectorAll(".details-button").forEach(details-button, id => {
-//     details-button.addEventListener("click", () => {
-//     document.querySelector(".proj-desc").innerHTML += `
-//     <div class="w-1/2 content-center p-20 text-wrap">
-//     <h3 class="pb-10 text-xl"><strong>${project.name}</strong></h3>
-//     <p>${project.description}</p><br>
-//     <a href="#">${project.page}</a><br>
-//     <a href="#">${project.repo}</a>
-//     </div>
-//     `
-// })
-// })
