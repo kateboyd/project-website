@@ -29,7 +29,7 @@ fetch("index.json")
         <div id="proj-desc${id}" class="w-1/2 proj-desc content-center p-20 text-wrap">
             <h3 class="pb-10 text-xl"><strong>${project.name}</strong></h3>
 
-            <button id="button${id}" class="details-button">Click for more details</button>
+            <button id="button${id}" class="details-button my-auto text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Click for more details</button>
 
             <div class="content-center pl-20 pr-20 text-wrap hidden">
                 <p>${project.description}</p><br>
