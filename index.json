@@ -2,27 +2,27 @@
     "projectdata" :[
 		{
         "id": 1, 
-        "name": "Project 1",
-        "description": "This is the description for Project 1",
-        "repo": "https://github.com/kateboyd",
+        "name": "Pricing Project",
+        "description": "Exrcise as part of the iO Academy Software Essentials to create a pricing display that automatically updates pricing for monthly and annual plans at the click of a button.",
+        "repo": "https://github.com/kateboyd/pricing-exercise",
         "page": "https://www.linkedin.com/in/kate-wileman/",
-        "image": "placeholderimage.jpg"
+        "image": "pricing.jpg"
     },
     {
         "id": 2, 
-        "name": "Project 2",
-        "description": "This is the description for Project 2",
-        "repo": "link-to-github-repo2-here",
-        "page": "link-to-url2-here",
-        "image": "placeholderimage.jpg"
+        "name": "Hello World HTML",
+        "description": "Single-origin coffee raclette migas marfa normcore DSA selvage drinking vinegar polaroid sus distillery solarpunk beard blog mukbang. Williamsburg flannel celiac scenester cold-pressed yes plz artisan austin enamel pin etsy. Skateboard portland direct trade, readymade mixtape hexagon jawn authentic kale chips kinfolk sustainable tumblr fanny pack try-hard. Helvetica quinoa synth DIY meh pickled scenester palo santo. Tilde biodiesel yes plz, whatever gastropub kogi street art adaptogen tumeric praxis.",
+        "repo": "https://github.com/kateboyd",
+        "page": "https://www.linkedin.com/in/kate-wileman/",
+        "image": "hello-world-html.jpg"
     },
     {
         "id": 3, 
         "name": "Project 3",
         "description": "This is the description for Project 3",
-        "repo": "link-to-github-repo3-here",
-        "page": "link-to-url3-here",
-        "image": "placeholderimage.jpg"
+        "repo": "https://github.com/kateboyd",
+        "page": "https://www.linkedin.com/in/kate-wileman/",
+        "image": "portfolio-page.jpg"
     }]
 	}
 
