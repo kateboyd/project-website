@@ -5,22 +5,23 @@ body {
   /* background-color: #fffcee; */
 }
 
-.home-head {
+/* .home-head {
   background-color: #c8c8d0;
-}
+} */
 
-.aboutme {
+/* .aboutme {
   background-color: #ffd8a5;
-}
+} */
 
 .contact {
-  background-color: #cfc8a8;
+  background-color: #e9e6d7;
+  opacity: 0.9;
 }
 
-.project-head {
+/* .project-head {
   background-color: #c8c8d0;
-}
+} */
 
 .proj-desc {
-  background-color: #ffd8a5;
+  background-color: #ffe9c7;
 }

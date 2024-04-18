@@ -26,54 +26,66 @@
 
 </head>
 
-<body class="text-black text-center min-w-96 bg-gradient-to-r from-slate-50 to-purple-50">
+<body class="text-black text-center min-w-96 bg-gradient-to-r from-purple-100 to-white">
 
     <div class="home-page">    
-        <header class="home-head w-screen p-6 flex justify-around sticky top-0">
+        <header class="home-head w-screen p-6 flex justify-around sticky top-0 bg-gradient-to-r from-zinc-200 to-purple-50 font-extrabold">
             <p class="my-auto text-3xl px-5">KATE BOYD</p>
-            <!-- <a class="project-button text-3xl " href="#">PROJECTS</a> -->
-
-            <!-- <a href="#_" class="project-button px-5 py-5 relative rounded group overflow-hidden font-3xl text-white inline-block">
-                <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-white bg-opacity-25 group-hover:h-full"></span>
-                <span class="relative group-hover:text-white text-3xl">PORTFOLIO</span>
-                </a>
- -->
-            <a class="project-button my-auto text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 px-5" href="#">PORTFOLIO</a>
+            <a class="project-button my-auto text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-purple-600 px-5" href="#">PORTFOLIO</a>
         </header>
 
-        <div class="container flex flex-col lg:flex-row items-center justify-center lg:gap-10 my-20 mx-auto">
-            <div class="lg:w-1/2 w-full">
+        <div class="container flex flex-col lg:flex-row items-center justify-center lg:gap-10 my-20 mx-auto ">
+            <div class="lg:w-1/2 w-full shadow-lg">
                 <img src="beachpic.jpg" alt="Beach Profile Photo">
                 <!-- <img src="babypic.jpg" alt="Baby Profile Photo">
                 <img src="partypic.jpg" alt="Party Profile Photo">
                 <img src="quokkapic.jpg" alt="Quokka Profile Photo"> -->
             </div>
-            <div class="lg:w-1/2 w-full aboutme content-center p-20 text-wrap">
+            <div class="lg:w-1/2 w-full aboutme content-center p-20 text-wrap bg-gradient-to-tl from-orange-50 to-orange-100 mb-10">
                 <h3 class="pb-10 text-2xl"><strong>ABOUT ME</strong></h3>
                 <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel elit dignissim massa condimentum tristique id sit amet erat. Etiam dapibus molestie mi, ac viverra nunc pretium at. Donec egestas posuere nibh, vitae tincidunt tellus tempor eu.</p>
             </div>
         </div>
 
-        <footer class="fixed bottom-0">
-            <p class="contact p-5 w-screen text-xl"><svg class="mx-auto my-auto h-10 w-10 text-white mb-3" fill="none" viewBox="0 0 22 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
-              </svg>CONTACT ME: <a class="" href="tel:+447943-593-173">07943 593 173</a></p>
+        <footer class="fixed bottom-0 contact p-5 w-screen">
+            <p class="flex justify-around">
+            <a href="tel:+447943-593-173">
+                <img class="mx-auto my-auto h-10 w-10 hover:scale-125" src="phone.jpg" alt="tel:+447943-593-173">
+            </a>
+            <a href="https://www.linkedin.com/in/kate-wileman/" target="_blank">
+                <img class="mx-auto my-auto h-10 w-10 hover:scale-125" src="linkedin.jpg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://github.com/kateboyd" target="_blank">
+                <img class="mx-auto my-auto h-10 w-10 hover:scale-125" src="github.jpg" alt="GitHub Icon">
+            </a>
+            </p>
         </footer>
     </div>
 
     <div class="project-page hidden">    
-        <header class="project-head w-screen p-6 flex justify-around fixed top-0">
-            <a class="home-button my-auto text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" href="#">HOME</a>
+        <header class="project-head w-screen p-6 flex justify-around fixed top-0 bg-gradient-to-r from-zinc-200 to-purple-50 font-extrabold	">
+            <p class="my-auto text-3xl px-5">KATE BOYD</p>
+            <a class="home-button my-auto text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:text-purple-600 px-5" href="#">HOME</a>
         </header>
 
-    <div class="project-container"></div>
+    <div class="project-container pt-20 pb-40"></div>
 
-        <footer class="fixed bottom-0">
-            <p class="contact p-5 w-screen text-xl"><svg class="mx-auto my-auto h-10 w-10 text-white mb-3" fill="none" viewBox="0 0 22 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
-              </svg>CONTACT ME: <a class="" href="tel:+447943-593-173">07943 593 173</a></p>
-        </footer>
-    </div>
+    <footer class="fixed bottom-0 contact p-5 w-screen">
+        <p class="flex justify-around">
+        <a href="tel:+447943-593-173">
+            <img class="mx-auto my-auto h-10 w-10 hover:scale-125" src="phone.jpg" alt="tel:+447943-593-173">
+        </a>
+        <a href="https://www.linkedin.com/in/kate-wileman/" target="_blank">
+            <img class="mx-auto my-auto h-10 w-10 hover:scale-125" src="linkedin.jpg" alt="LinkedIn Icon">
+        </a>
+        <a href="https://github.com/kateboyd" target="_blank">
+            <img class="mx-auto my-auto h-10 w-10 hover:scale-125" src="github.jpg" alt="GitHub Icon">
+        </a>
+        </p>
+    </footer>
+
+</div>
+</div>
 
 </body>
 
