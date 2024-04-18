@@ -2,25 +2,25 @@ body {
   font-family: "Poppins";
   /* background-image: url('beach.jpg'); */
   /* opacity: .4;  */
-  /* background-color: #E5BE1F; */
+  /* background-color: #fffcee; */
 }
 
 .home-head {
-  background-color: #035c5F;
+  background-color: #c8c8d0;
 }
 
 .aboutme {
-  background-color: #DA733D;
+  background-color: #ffd8a5;
 }
 
 .contact {
-  background-color: #F19D54;
+  background-color: #cfc8a8;
 }
 
 .project-head {
-  background-color: #DA733D;
+  background-color: #c8c8d0;
 }
 
 .proj-desc {
-  background-color: #035c5F;
+  background-color: #ffd8a5;
 }
