@@ -2,7 +2,7 @@
     "projectdata" :[
 		{
         "id": 1, 
-        "name": "Pricing Project",
+        "name": "PRICING PROJECT",
         "description": "Exrcise as part of the iO Academy Software Essentials to create a pricing display that automatically updates pricing for monthly and annual plans at the click of a button.",
         "repo": "https://github.com/kateboyd/pricing-exercise",
         "page": "https://www.linkedin.com/in/kate-wileman/",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2, 
-        "name": "Hello World HTML",
+        "name": "HELLO WORLD HTML",
         "description": "Single-origin coffee raclette migas marfa normcore DSA selvage drinking vinegar polaroid sus distillery solarpunk beard blog mukbang. Williamsburg flannel celiac scenester cold-pressed yes plz artisan austin enamel pin etsy. Skateboard portland direct trade, readymade mixtape hexagon jawn authentic kale chips kinfolk sustainable tumblr fanny pack try-hard.",
         "repo": "https://github.com/kateboyd",
         "page": "https://www.linkedin.com/in/kate-wileman/",
@@ -18,7 +18,7 @@
     },
     {
         "id": 3, 
-        "name": "Theme 1 website",
+        "name": "THEME 1 WEBSITE",
         "description": "First draft of portfolio website",
         "repo": "https://github.com/kateboyd",
         "page": "https://www.linkedin.com/in/kate-wileman/",
