@@ -25,7 +25,7 @@ fetch("index.json")
             <img class="lg:w-1/2 w-full justify-center" src="${project.image}" alt="${project.name} project image">
             <div id="proj-desc${id}" class="lg:w-1/2 w-full proj-desc content-center text-wrap lg:py-20 py-5">
                 <h3 class="pb-10 text-3xl"><strong>${project.name}</strong></h3>
-                <button id="button${id}" class="details-button my-auto text-3xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Click for more details</button>
+                <button id="button${id}" class="details-button my-auto text-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Click for more details</button>
                 <div class="content-center pl-20 pr-20 text-wrap hidden">
                     <p>${project.description}</p><br>
                     <p>Check out the live page <a href="${project.page}" target="_blank"><strong class="text-xl">here</strong></a></p><br>
