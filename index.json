@@ -6,7 +6,7 @@
         "description": "Exercise as part of the iO Academy Software Essentials to create a pricing display that automatically updates pricing for monthly and annual plans at the click of a button.",
         "repo": "https://github.com/kateboyd/pricing-exercise",
         "page": "https://www.linkedin.com/in/kate-wileman/",
-        "image": "pricing.jpg"
+        "image": "placeholder1.jpg"
     },
     {
         "id": 2, 
@@ -14,7 +14,7 @@
         "description": "Single-origin coffee raclette migas marfa normcore DSA selvage drinking vinegar polaroid sus distillery solarpunk beard blog mukbang. Williamsburg flannel celiac scenester cold-pressed yes plz artisan austin enamel pin etsy. Skateboard portland direct trade, readymade mixtape hexagon jawn authentic kale chips kinfolk sustainable tumblr fanny pack try-hard.",
         "repo": "https://github.com/kateboyd",
         "page": "https://www.linkedin.com/in/kate-wileman/",
-        "image": "hello-world-html.jpg"
+        "image": "placeholder2.jpg"
     },
     {
         "id": 3, 
@@ -22,7 +22,7 @@
         "description": "First draft of portfolio website",
         "repo": "https://github.com/kateboyd",
         "page": "https://www.linkedin.com/in/kate-wileman/",
-        "image": "portfolio-page.jpg"
+        "image": "placeholder3.jpg"
     }]
 	}
 
