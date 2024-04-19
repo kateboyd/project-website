@@ -25,7 +25,7 @@ fetch("index.json")
             <div class="my-auto xl:w-1/2 w-full justify-center min-h-350 max-h-450 max-w-700"><img class="mx-auto shadow-2xl" src="${project.image}" alt="${project.name} project image"></div>
             <div id="proj-desc${id}" class="xl:min-w-900 xl:max-h-490 shadow-2xl xl:w-1/2 w-full proj-desc content-center xl:pt-20 xl:pb-10 py-10 bg-gradient-to-tl from-orange-50 to-orange-100">
                 <h3 class="pb-10 text-3xl"><strong>${project.name}</strong></h3>
-                <button id="button${id}" class="hover:text-purple-600 details-button my-auto text-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Click for more details</button>
+                <button id="button${id}" class="animate-pulse hover:text-purple-600 details-button my-auto text-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Click for more details</button>
                 <div class="xl:min-w-950 content-center pl-20 pr-20 text-wrap hidden">
                     <p class="text-xl overflow-y-auto xl:max-h-36">${project.description}</p><br>
                     <p class="text-lg">Check out the live page <a href="${project.page}" target="_blank"><strong class="text-xl">here</strong></a></p><br>
