@@ -1,28 +1,28 @@
 {
-    "projectdata" :[
-		{
-        "id": 1, 
-        "name": "PRICING PROJECT",
-        "description": "Exercise as part of the iO Academy Software Essentials to create a pricing display that automatically updates pricing for monthly and annual plans at the click of a button.",
-        "repo": "https://github.com/kateboyd/pricing-exercise",
-        "page": "https://www.linkedin.com/in/kate-wileman/",
-        "image": "placeholder1.jpg"
+  "projectdata": [
+    {
+      "id": 1,
+      "name": "Email Client Project",
+      "description": "This was a team project to create a web based email client where emails are fetched and displayed from an API. The user can open a modal to compose and send a new email which posts to the API and appears in the sent folder. ",
+      "repo": "https://github.com/iO-Academy/2024-mar-sde-email-client-panda-monium",
+      "page": "https://www.linkedin.com/in/kate-wileman/",
+      "image": "email-client.jpg"
     },
     {
-        "id": 2, 
-        "name": "HELLO WORLD HTML",
-        "description": "Single-origin coffee raclette migas marfa normcore DSA selvage drinking vinegar polaroid sus distillery solarpunk beard blog mukbang. Williamsburg flannel celiac scenester cold-pressed yes plz artisan austin enamel pin etsy. Skateboard portland direct trade, readymade mixtape hexagon jawn authentic kale chips kinfolk sustainable tumblr fanny pack try-hard.",
-        "repo": "https://github.com/kateboyd",
-        "page": "https://www.linkedin.com/in/kate-wileman/",
-        "image": "placeholder2.jpg"
+      "id": 2,
+      "name": "HELLO WORLD HTML",
+      "description": "Single-origin coffee raclette migas marfa normcore DSA selvage drinking vinegar polaroid sus distillery solarpunk beard blog mukbang. Williamsburg flannel celiac scenester cold-pressed yes plz artisan austin enamel pin etsy. Skateboard portland direct trade, readymade mixtape hexagon jawn authentic kale chips kinfolk sustainable tumblr fanny pack try-hard.",
+      "repo": "https://github.com/kateboyd",
+      "page": "https://www.linkedin.com/in/kate-wileman/",
+      "image": "placeholder2.jpg"
     },
     {
-        "id": 3, 
-        "name": "THEME 1 WEBSITE",
-        "description": "First draft of portfolio website",
-        "repo": "https://github.com/kateboyd",
-        "page": "https://www.linkedin.com/in/kate-wileman/",
-        "image": "placeholder3.jpg"
-    }]
-	}
-
+      "id": 3,
+      "name": "THEME 1 WEBSITE",
+      "description": "First draft of portfolio website",
+      "repo": "https://github.com/kateboyd",
+      "page": "https://www.linkedin.com/in/kate-wileman/",
+      "image": "placeholder3.jpg"
+    }
+  ]
+}
