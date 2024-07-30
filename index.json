@@ -3,8 +3,8 @@
     {
       "id": 1,
       "name": "Email Client Project",
-      "description": "This was a team project to create a web based email client where emails are fetched and displayed from an API. The user can open a modal to compose and send a new email which posts to the API and appears in the sent folder. ",
-      "repo": "https://github.com/iO-Academy/2024-mar-sde-email-client-panda-monium",
+      "description": "This was a team project to create a web based email client where emails are fetched and displayed from an API. The user can open a modal to compose and send a new email which posts to the API and appears in the sent folder.",
+      "repo": "https://github.com/iO-Academy/2024-mar-sde-email-client-panda-monium/tree/story-4-delete-emails",
       "page": "https://www.linkedin.com/in/kate-wileman/",
       "image": "email-client.jpg"
     },
