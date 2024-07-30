@@ -24,13 +24,21 @@ fetch("index.json")
     data.projectdata.forEach((project, id) => {
       document.querySelector(".project-container").innerHTML += `
         <div class="project-container flex flex-col xl:flex-row items-center justify-center xl:my-20 xl:mx-20 my-5 mx-5 xl:gap-10 xl:p-10 p-5 xl:max-h-450 items-stretch">
-            <div class="my-auto xl:w-1/2 w-full justify-center min-h-350 max-h-450 max-w-700"><img class="mx-auto shadow-2xl" src="${project.image}" alt="${project.name} project image"></div>
+            <div class="my-auto xl:w-1/2 w-full justify-center min-h-350 max-h-450 max-w-700">
+                <div class="relative">    
+                     <img class="mx-auto shadow-2xl" src="${project.image}" alt="${project.name} project image">
+                     <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+                     <div class="absolute inset-0 flex items-center justify-center">
+                     <h1 class="text-white text-4xl">${project.name}</h1>
+                 </div>
+
+                </div>
+            </div>
             <div id="proj-desc${id}" class="xl:min-w-900 xl:max-h-490 shadow-2xl xl:w-1/2 w-full proj-desc content-center xl:pt-20 xl:pb-10 py-10 bg-gradient-to-tl from-orange-50 to-orange-100">
                 <h3 class="pb-10 text-3xl"><strong>${project.name}</strong></h3>
                 <button id="button${id}" class="animate-pulse hover:text-purple-600 details-button my-auto text-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">Click for more details</button>
                 <div class="xl:min-w-950 content-center pl-20 pr-20 text-wrap hidden">
                     <p class="text-xl overflow-y-auto xl:max-h-36">${project.description}</p><br>
-                    <p class="text-lg">Check out the live page <a href="${project.page}" target="_blank"><strong class="text-xl">here</strong></a></p><br>
                     <p class="text-lg">GitHub repo <a href="${project.repo}" target="_blank"><strong class="text-xl">here <i class="fa-brands fa-github"></i></strong></a></p><br>
                 </div>
             </div>
