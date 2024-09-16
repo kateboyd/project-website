@@ -28,7 +28,7 @@ fetch("index.json")
                 <div class="relative">    
                      <img class="mx-auto shadow-2xl" src="${project.image}" alt="${project.name} project image">
                      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-                     <div class="absolute inset-0 flex items-center justify-center">
+                     <div class="absolute inset-0 flex items-center justify-center max-h-450">
                      <h1 class="text-white text-4xl">${project.name}</h1>
                  </div>
 
